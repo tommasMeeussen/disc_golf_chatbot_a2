@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
                                                     messageArrayList.add(outMessage);
 
                                                     // speak the message
-                                                    new SayTask().execute(outMessage.getMessage());
+                                                    //new SayTask().execute(outMessage.getMessage());
                                                     break;
 
                                                 case "option":
@@ -291,7 +291,7 @@ public class MainActivity extends AppCompatActivity {
                                                     messageArrayList.add(outMessage);
 
                                                     // speak the message
-                                                    new SayTask().execute(outMessage.getMessage());
+                                                    //new SayTask().execute(outMessage.getMessage());
                                                     break;
 
                                                 case "image":
@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
                                                     messageArrayList.add(outMessage);
 
                                                     // speak the description
-                                                    new SayTask().execute("You received an image: " + outMessage.getTitle() + outMessage.getDescription());
+                                                    //new SayTask().execute("You received an image: " + outMessage.getTitle() + outMessage.getDescription());
                                                     break;
                                                 default:
                                                     Log.e("Error", "Unhandled message type");
